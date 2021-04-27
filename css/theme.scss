@@ -968,7 +968,7 @@ a {
   box-shadow: 0 0 45px -5px rgba(158, 158, 158, 0.22) !important;
 }
 
-.btn-group-sm>.btn,
+.btn-group-sm > .btn,
 .btn-sm {
   font-size: .75rem;
   padding: 0.25rem 0.75rem;
@@ -1006,7 +1006,7 @@ a {
   }
 }
 
-.show>.btn-primary.dropdown-toggle:focus {
+.show > .btn-primary.dropdown-toggle:focus {
   color: var(--text-light);
   background-color: var(--title);
   border-color: var(--title);
@@ -1034,7 +1034,7 @@ a {
   }
 }
 
-.show>.btn-primary.dropdown-toggle {
+.show > .btn-primary.dropdown-toggle {
   color: var(--text-light);
   background-color: var(--theme);
   border-color: var(--theme);
@@ -1065,7 +1065,7 @@ a {
   }
 }
 
-.show>.btn-secondary.dropdown-toggle:focus {
+.show > .btn-secondary.dropdown-toggle:focus {
   color: var(--text-light);
   background-color: var(--title);
   border-color: var(--title);
@@ -1092,7 +1092,7 @@ a {
   }
 }
 
-.show>.btn-secondary.dropdown-toggle {
+.show > .btn-secondary.dropdown-toggle {
   color: #f4f5f9;
   background-color: var(--title);
   border-color: var(--title);
@@ -1130,7 +1130,7 @@ a {
   }
 }
 
-.show>.btn-light.dropdown-toggle:focus {
+.show > .btn-light.dropdown-toggle:focus {
   color: #9d9fa9;
   background-color: #f4f5f9;
   border-color: #f4f5f9;
@@ -1157,7 +1157,7 @@ a {
   }
 }
 
-.show>.btn-light.dropdown-toggle {
+.show > .btn-light.dropdown-toggle {
   color: #9d9fa9;
   background-color: #f4f5f9;
   border-color: #f4f5f9;
@@ -1197,7 +1197,7 @@ a {
   }
 }
 
-.show>.btn-outline-light.dropdown-toggle {
+.show > .btn-outline-light.dropdown-toggle {
   color: #9d9fa9;
   background-color: var(--background);
   border-color: #f4f5f9;
@@ -1211,7 +1211,7 @@ a {
   }
 }
 
-.show>.btn-outline-light.dropdown-toggle:focus {
+.show > .btn-outline-light.dropdown-toggle:focus {
   box-shadow: 0 0 0 0.2rem rgba(248, 249, 250, 0.5);
 }
 
@@ -1252,7 +1252,7 @@ a {
   }
 }
 
-.show>.btn-outline-secondary.dropdown-toggle {
+.show > .btn-outline-secondary.dropdown-toggle {
   color: var(--text-light);
   background-color: #dddfe6;
   border-color: #dddfe6;
@@ -1266,7 +1266,7 @@ a {
   }
 }
 
-.show>.btn-outline-secondary.dropdown-toggle:focus {
+.show > .btn-outline-secondary.dropdown-toggle:focus {
   box-shadow: none;
 }
 
@@ -1566,7 +1566,7 @@ a {
       input style
   --------------------------------------------------------------*/
 
-.input-group> {
+.input-group > {
   .custom-select:not(:first-child) {
     border-left-width: 0;
   }
@@ -1576,7 +1576,7 @@ a {
       border-left-width: 0;
     }
 
-    &:focus+.input-group-append .input-group-text {
+    &:focus + .input-group-append .input-group-text {
       border-color: var(--theme);
     }
 
@@ -1585,7 +1585,7 @@ a {
     }
   }
 
-  .input-group-append>.btn-outline-secondary {
+  .input-group-append > .btn-outline-secondary {
     border-color: #f4f5f9;
     border-left-width: 0;
 
@@ -1607,7 +1607,7 @@ a {
     }
   }
 
-  .form-control:focus+.input-group-append .btn {
+  .form-control:focus + .input-group-append .btn {
     border-color: #f4f5f9;
   }
 }
@@ -1932,7 +1932,7 @@ a {
   align-items: center;
   padding: 0.75rem 0.625rem;
 
-  >* {
+  > * {
     padding-left: 0.625rem;
     padding-right: 0.625rem;
   }
@@ -2357,23 +2357,23 @@ a:hover .overlay {
       margin: 0;
     }
 
-    &:hover>a {
+    &:hover > a {
       color: var(--menu-hover);
     }
 
-    &.menu-item-has-children>a:after {
+    &.menu-item-has-children > a:after {
       content: "\2022";
       position: absolute;
       color: var(--text-dark);
     }
   }
 
-  >li {
+  > li {
     animation: bounceInRight;
     animation-duration: .3s;
   }
 
-  >li.current-menu-item>a:before {
+  > li.current-menu-item > a:before {
     content: '';
     height: 4px;
     left: 1px;
@@ -2386,12 +2386,12 @@ a:hover .overlay {
     transform: translate(0%, -50%);
   }
 
-  >li.menu-item-has-children>a:after {
+  > li.menu-item-has-children > a:after {
     top: -15px;
     right: -10px;
   }
 
-  .sub-menu>li.menu-item-has-children>a:after {
+  .sub-menu > li.menu-item-has-children > a:after {
     right: .5rem;
     top: 50%;
     -webkit-transition: all .3s ease;
@@ -2445,7 +2445,7 @@ a:hover .overlay {
     }
   }
 
-  .sub-menu>li ul.sub-menu {
+  .sub-menu > li ul.sub-menu {
     &:after {
       left: 2px;
       top: 50%;
@@ -2467,14 +2467,14 @@ a:hover .overlay {
     }
   }
 
-  li:hover>ul.sub-menu {
+  li:hover > ul.sub-menu {
     opacity: 1;
     visibility: visible;
     margin-top: 15px;
     z-index: 11;
   }
 
-  .sub-menu>li:hover ul.sub-menu {
+  .sub-menu > li:hover ul.sub-menu {
     margin-top: 0;
   }
 
@@ -2495,7 +2495,7 @@ a:hover .overlay {
       letter-spacing: 1px;
     }
 
-    &:hover>a {
+    &:hover > a {
       color: var(--menu-hover);
     }
 
@@ -2590,7 +2590,7 @@ a:hover .overlay {
   }
 
   &:hover {
-    >ul.sub-menu {
+    > ul.sub-menu {
       opacity: 1;
       visibility: visible;
       margin-top: 15px;
@@ -2633,7 +2633,7 @@ a:hover .overlay {
 }
 
 @media (max-width: 767.98px) {
-  .main-menu li.menu-item-has-children>a:after {
+  .main-menu li.menu-item-has-children > a:after {
     right: 0;
     top: 50%;
     -webkit-transform: translate(0%, -50%);
@@ -2727,25 +2727,25 @@ a:hover .overlay {
       }
     }
 
-    >li {
+    > li {
 
-      .sub-memu>li:hover>a,
-      &:hover>a {
+      .sub-memu > li:hover > a,
+      &:hover > a {
         color: var(--theme);
       }
     }
   }
 
-  >li {
-    >ul>li {
+  > li {
+    > ul > li {
 
-      >ul>li:hover>a,
-      &:hover>a {
+      > ul > li:hover > a,
+      &:hover > a {
         color: var(--theme);
       }
     }
 
-    &:hover>a {
+    &:hover > a {
       color: var(--theme);
     }
   }
@@ -3316,7 +3316,7 @@ a:hover .overlay {
     }
   }
 
-  >.comment-respond {
+  > .comment-respond {
     padding: 1em;
     box-shadow: 0 0 10px 0 rgba(82, 63, 105, 0.15);
     margin-top: 10px;
@@ -3432,7 +3432,8 @@ a:hover .overlay {
             text-align: center;
             cursor: pointer;
 
-            &:hover {}
+            &:hover {
+            }
 
             img {
               max-width: 100%;
@@ -3654,7 +3655,7 @@ body {
     right: 0;
   }
 
-  .prev+.next {
+  .prev + .next {
     margin-left: 0;
   }
 }
@@ -3894,13 +3895,13 @@ body {
     margin: 0 .75rem 0.5rem 0;
   }
 
-  >a {
+  > a {
     position: relative;
   }
 }
 
 .tags a:before,
-.tagcloud>a:before {
+.tagcloud > a:before {
   content: '#';
   font-size: .875rem;
   display: inline-block;
