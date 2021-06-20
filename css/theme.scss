@@ -2851,10 +2851,10 @@ a:hover .overlay {
       padding: 10px 20px;
       border: 1px solid var(--block-border);
       background-color: var(--block-background);
+      background: repeating-linear-gradient(145deg, #f2f2f2, #f2f2f2 15px, #fff 0, #fff 30px);
       text-align: center;
       color: var(--text-dark);
       user-select: none;
-      background: repeating-linear-gradient(145deg, #f2f2f2, #f2f2f2 15px, #fff 0, #fff 30px);
       display: block;
       border-radius: 5px;
     }
@@ -2940,14 +2940,13 @@ a:hover .overlay {
         transition: color .5s;
 
         &.current {
-
           &:before {
             background: var(--theme) !important;
           }
         }
 
         &:before {
-          background-color: var(--theme);
+          background-color: #efecf4;
           content: '';
           position: absolute;
           width: 12px;

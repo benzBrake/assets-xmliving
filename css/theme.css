@@ -2453,10 +2453,10 @@ a:hover .overlay {
   padding: 10px 20px;
   border: 1px solid var(--block-border);
   background-color: var(--block-background);
+  background: repeating-linear-gradient(145deg, #f2f2f2, #f2f2f2 15px, #fff 0, #fff 30px);
   text-align: center;
   color: var(--text-dark);
   user-select: none;
-  background: repeating-linear-gradient(145deg, #f2f2f2, #f2f2f2 15px, #fff 0, #fff 30px);
   display: block;
   border-radius: 5px;
 }
@@ -2531,7 +2531,7 @@ a:hover .overlay {
   background: var(--theme) !important;
 }
 .post-aside .x-catalog .catalog-item a:before {
-  background-color: var(--theme);
+  background-color: #efecf4;
   content: "";
   position: absolute;
   width: 12px;
@@ -4077,6 +4077,7 @@ body photos .photo {
   flex-grow: 1;
   display: block;
   position: relative;
+  width: unset;
 }
 body photos .photo:nth-last-child(4), body photos .photo:nth-last-child(4) ~ .photo {
   flex-grow: 0;
